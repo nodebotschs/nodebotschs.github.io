@@ -1,0 +1,70 @@
+header {
+  position: relative;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  min-height: 768px;
+  background-color: #e6d356;
+  background-image: url(../images/pcb-fabrication.png);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  header .hero-group-copy {
+    display: inline-block;
+    width: 44%;
+    padding: 30px; }
+  header .int {
+    font-size: 3em;
+    margin: 0;
+    padding: 0; }
+  header .title {
+    text-align: center;
+    font-size: 5em;
+    padding: 25px 10px;
+    margin-top: 0;
+    color: #f5f5f5;
+    background-color: #303024; }
+  header .subtitle {
+    color: #303024;
+    font-size: 5em; }
+  header img {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    width: 500px; }
+
+.teaser {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-size: 4em;
+  text-align: justify; }
+
+section {
+  position: relative;
+  width: 100%; }
+
+section h3, footer h3 {
+  border-top: 2px solid #f5f5f5;
+  font-size: 3.5em; }
+
+.organizers h3, .sponsors h3 {
+  width: 90%;
+  margin-left: 10px;
+  border-top: 2px solid #f5f5f5;
+  font-size: 3.5em; }
+
+.organizers, .sponsors {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  color: #f5f5f5; }
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #3a3838; }
