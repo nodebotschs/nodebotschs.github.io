@@ -1,5 +1,7 @@
 # NodeBotsDay CHS Site
 
+![Nodebots](https://raw.githubusercontent.com/nodebotschs/nodebotschs.github.io/master/images/nodebot_logo.png)
+
 ## Development
 
 ### Add/Edit Copy
