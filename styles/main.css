@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -51,7 +52,7 @@ pre {
   word-wrap: break-word; }
 
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  quotes: "“" "”" "‘" "’"; }
 
 small {
   font-size: 80%; }
@@ -131,19 +132,15 @@ html {
 @media (min-width: 650px) {
   html {
     font-size: 58%; } }
-
 @media (min-width: 800px) {
   html {
     font-size: 62.5%; } }
-
 @media (min-width: 1100px) {
   html {
     font-size: 70%; } }
-
 @media (min-width: 1400px) {
   html {
     font-size: 75%; } }
-
 body {
   font-family: "Roboto",Helvetica,Arial,sans-serif;
   font-style: normal;
@@ -156,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.3em; }
 
 h1 {
-  font-size: 6.0rem; }
+  font-size: 6rem; }
 
 h2 {
   font-size: 2.4rem;
@@ -197,20 +194,21 @@ a:active {
   h4 a, strong a {
     background-image: -webkit-linear-gradient(transparent 89%, #e5e5e5 89%, #e5e5e5 97%, transparent 97%);
     background-image: linear-gradient(transparent 89%, #e5e5e5 89%, #e5e5e5 97%, transparent 97%); }
+
   h4 a:hover, strong a:hover {
     background-image: -webkit-linear-gradient(transparent 89%, #000 89%, #000 97%, transparent 97%);
     background-image: linear-gradient(transparent 89%, #000 89%, #000 97%, transparent 97%); }
+
   h4 a:active, strong a:active {
     background-image: -webkit-linear-gradient(transparent 89%, #b2b2b2 89%, #b2b2b2 97%, transparent 97%);
     background-image: linear-gradient(transparent 89%, #b2b2b2 89%, #b2b2b2 97%, transparent 97%); } }
-
 ul {
   list-style: none;
-  margin: 0 0 0.5em;
+  margin: 0 0 .5em;
   padding: 0; }
 
 ul li {
-  margin: 0 0 0.75em;
+  margin: 0 0 .75em;
   padding: 0; }
 
 ::-moz-selection {
@@ -253,11 +251,12 @@ section, header, footer {
   .grid-1-third {
     float: left;
     width: 30.66667%; }
+
   .grid-1-third:nth-child(3n) {
     margin-right: 0; }
+
   .grid-1-third:nth-child(4n) {
     clear: both; } }
-
 .grid-2-thirds {
   float: none; }
 
@@ -265,11 +264,12 @@ section, header, footer {
   .grid-2-thirds {
     float: left;
     width: 61.272%; }
+
   .grid-2-thirds:nth-child(3n) {
     margin-right: 0; }
+
   .grid-2-thirds:nth-child(4n) {
     clear: both; } }
-
 .grid-1-half {
   float: none; }
 
@@ -277,11 +277,12 @@ section, header, footer {
   .grid-1-half {
     float: left;
     width: 48%; }
+
   .grid-1-half:nth-child(2n) {
     margin-right: 0; }
+
   .grid-1-half:nth-child(3n) {
     clear: both; } }
-
 .grid-centered {
   float: none;
   margin-left: auto;
@@ -303,13 +304,12 @@ section, header, footer {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3; } }
-
 .btn {
   background-image: -webkit-linear-gradient(transparent 87%, transparent 87%, transparent 97%, transparent 97%);
   background-image: linear-gradient(transparent 87%, transparent 87%, transparent 97%, transparent 97%);
   box-sizing: border-box;
   display: inline-block;
-  padding: 0.5em 0.75em 0.4em;
+  padding: .5em .75em .4em;
   text-decoration: none;
   background-color: #e6d356;
   border: 3px solid #000;
@@ -370,37 +370,29 @@ section, header, footer {
 @media (min-width: 500px) {
   .layer {
     background-position: calc(100% + 160px); } }
-
 @media (min-width: 650px) {
   .layer {
     background-position: calc(100% + 120px); } }
-
 @media (min-width: 800px) {
   .layer {
     background-position: calc(100% + 70px); } }
-
 @media (min-width: 1100px) {
   .layer {
     background-position: calc(100% + 0px); } }
-
 @media (min-width: 500px) {
   .layer {
     padding: 16rem 3rem;
     padding-right: calc(140px + 3rem);
     height: 100vh; } }
-
 @media (min-width: 650px) {
   .layer {
     padding-right: calc(180px + 3rem); } }
-
 @media (min-width: 800px) {
   .layer {
     padding-right: calc(230px + 3rem); } }
-
 @media (min-width: 1100px) {
   .layer {
     padding-right: calc(300px + 3rem); } }
-
 .layer-4 .section-wrap {
   padding-top: 4rem;
   padding-bottom: 4rem; }
@@ -414,16 +406,15 @@ section, header, footer {
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .layer-1 {
     background-image: url("../images/pcb-fabrication.png"); } }
-
 @media (max-width: 500px) {
   .layer-1, .layer-2, .layer-3, .layer-4, .layer-5 {
     background-image: none; }
+
   .node-bot {
     width: 35%;
     position: absolute;
     top: 3%;
     left: 30%; } }
-
 footer, footer.layer {
   position: relative;
   color: #fff;
@@ -500,16 +491,15 @@ header, header.layer {
     background-attachment: scroll;
     padding-top: 160px;
     text-align: center; } }
-
 @media (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 500px) and (min-resolution: 1.5dppx), (max-width: 500px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 500px) and (min-resolution: 144dpi) {
   header, header.layer {
     background: #e6d356 url("../images/pcb-fabrication.png") 100% cover no-repeat, url("../images/nodebot_logo.png") no-repeat; }
+
   .node-bot {
     width: 40%;
     position: absolute;
     top: 3%;
     margin: 0 auto; } }
-
 header .container, header.layer .container {
   position: relative;
   top: 2rem;
@@ -521,22 +511,22 @@ header .title, header.layer .title {
   width: 64%;
   padding: 25px 10px;
   margin-left: -.1rem;
-  margin-bottom: .8rem; }
+  margin-bottom: 0.8rem; }
 
 header .intro-description, header.layer .intro-description {
   font-size: 2.4rem;
-  margin-bottom: .8em; }
+  margin-bottom: .8em;
+  width: 85%; }
 
 @media (min-width: 500px) {
   header .intro-description, header.layer .intro-description {
     font-size: 3.2rem; }
+
   .section {
     padding: 30px; } }
-
 @media (min-width: 500px) {
   header .intro-details, header.layer .intro-details {
     font-size: 2.4rem; } }
-
 header .btn-register, header.layer .btn-register {
   font-size: 1.8rem;
   margin-top: 1.5em; }
@@ -579,7 +569,7 @@ header .btn-register, header.layer .btn-register {
   page-break-inside: avoid;
   break-inside: avoid;
   margin-bottom: 0;
-  padding-bottom: .75em; }
+  padding-bottom: 0.75em; }
 
 .section-list-title {
   display: inline-block; }
@@ -600,7 +590,6 @@ header .btn-register, header.layer .btn-register {
 @media (min-width: 650px) {
   .ticket-options {
     text-align: center; } }
-
 .ticket-option {
   margin-bottom: 2em; }
 

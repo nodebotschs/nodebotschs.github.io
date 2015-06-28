@@ -686,7 +686,8 @@ header .title,header.layer .title {
 
 header .intro-description,header.layer .intro-description {
     font-size: 2.4rem;
-    margin-bottom: .8em
+    margin-bottom: .8em;
+    width: 85%;
 }
 
 @media (min-width: 500px) {
