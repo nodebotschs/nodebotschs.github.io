@@ -502,6 +502,29 @@ footer h4, footer.layer h4 {
   margin-left: 30px;
   padding: 15px; }
 
+#nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #303024;
+  color: #FFFFFF;
+  z-index: 9999;
+  display: none; }
+  #nav ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; }
+  #nav li {
+    width: 22%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px; }
+  #nav a {
+    color: #fff; }
+    #nav a:hover {
+      color: #e6d356; }
+
 @media (min-width: 500px) {
   .layer {
     background-position: calc(100% + 160px); } }
@@ -589,7 +612,9 @@ footer h4, footer.layer h4 {
     min-width: 100%; }
   .people li {
     display: inline-block;
-    width: 25%; } }
+    width: 25%; }
+  #nav {
+    font-size: 1rem; } }
 
 @media (min-width: 500px) {
   header .intro-description, header.layer .intro-description {
