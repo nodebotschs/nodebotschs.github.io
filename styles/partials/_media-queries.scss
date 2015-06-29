@@ -1,0 +1,152 @@
+
+@media (min-width: 500px) {
+    .layer {
+        background-position:calc(100% + 160px)
+    }
+}
+
+@media (min-width: 650px) {
+    .layer {
+        background-position:calc(100% + 120px)
+    }
+}
+
+@media (min-width: 800px) {
+    .layer {
+        background-position:calc(100% + 70px)
+    }
+}
+
+@media (min-width: 1100px) {
+    .layer {
+        background-position:calc(100% + 0px)
+    }
+}
+
+@media (min-width: 500px) {
+    .layer {
+        padding:16rem 3rem;
+        padding-right: calc(140px + 3rem);
+        height: 100vh
+    }
+
+}
+
+@media (min-width: 650px) {
+    .layer {
+        padding-right:calc(180px + 3rem)
+    }
+}
+
+@media (min-width: 800px) {
+    .layer {
+        padding-right:calc(230px + 3rem)
+    }
+}
+
+@media (min-width: 1100px) {
+    .layer {
+        padding-right:calc(300px + 3rem)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .layer-1 {
+        background-image:url("../images/pcb-fabrication.png")
+    }
+
+}
+
+@media (max-width: 500px) {
+    .layer-1,.layer-2,.layer-3,.layer-4,.layer-5 {
+        background-image:none
+    }
+    .node-bot {
+      width: 35%;
+      position: absolute;
+      top: 3%;
+      left: 33%;
+    }
+
+}
+@media (max-width: 500px) {
+  header,header.layer {
+      background-attachment: scroll;
+      padding-top: 160px;
+      text-align: center
+  }
+}
+
+
+
+
+@media (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 500px) and (min-resolution: 1.5dppx), (max-width: 500px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 500px) and (min-resolution: 144dpi) {
+
+    .node-bot {
+      width: 40%;
+      position: absolute;
+      top: 3%;
+      margin: 0 auto;
+    }
+    header .container, header.layer .container {
+      position: relative;
+      top: auto;
+      left: 0;
+      width: 100%;
+    }
+    header .title,header.layer .title {
+
+        width: 100%;
+        padding: 25px 10px;
+        margin-left: -.1rem;
+        margin-bottom: .8rem
+    }
+
+}
+@media (max-width: 1024px) {
+  header .container,header.layer .container {
+      top: 4rem;
+      left: 0rem;
+  }
+
+}
+@media (max-width: 650px) {
+  header .title,header.layer .title {
+
+      width: 100%;
+
+  }
+}
+@media (max-width: 500px) {
+  header .intro-description,header.layer .intro-description {
+      width: 100%;
+  }
+  .footer-thanks .sponsor {
+  display: block;
+  min-width: 100%;
+  }
+  .people li {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
+@media (min-width: 500px) {
+    header .intro-description,header.layer .intro-description {
+        font-size:3.2rem;
+    }
+    .section {
+      padding: 30px;
+    }
+}
+
+@media (min-width: 500px) {
+    header .intro-details,header.layer .intro-details {
+        font-size:2.4rem
+    }
+}
+@media (min-width: 650px) {
+    .ticket-options {
+        text-align:center
+    }
+}

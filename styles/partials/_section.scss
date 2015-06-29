@@ -1,0 +1,65 @@
+.section-wrap {
+    display: table-cell;
+    vertical-align: top;
+}
+.section-wrap {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.ie8 .section-wrap {
+    display: block;
+    padding-left: 20px
+}
+
+.section-header {
+    border-top: 3px solid #000;
+    padding-top: .8rem;
+    margin-bottom: 1.5rem
+}
+
+.section-overview {
+    font-size: 2.4rem;
+    margin-bottom: 4rem
+}
+
+.section-list::after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.section-list-item {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 0;
+    padding-bottom: .75em
+}
+
+.section-list-title {
+    display: inline-block
+}
+.section div {
+  padding-left: 2%;
+}
+.layer {
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: $jsYellow;
+    background-size: cover;
+    background-image: url("../images/pcb-fabrication.png");
+    padding: 2rem 3rem 4rem;
+
+}
+.layer {
+    display: table;
+    width: 100%
+}
+.layer-4 .section-wrap {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
