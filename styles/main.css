@@ -534,7 +534,7 @@ footer h4, footer.layer h4 {
 
 @media (min-width: 1100px) {
   .layer {
-    padding-right: calc(300px + 3rem); } }
+    padding-right: calc(250px + 3rem); } }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .layer-1 {
