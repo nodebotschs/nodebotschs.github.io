@@ -3,60 +3,66 @@ footer,footer.layer {
     position: relative;
     color: #fff;
     height: auto;
-    padding-top: 6rem;
-    padding-bottom: 5.9rem
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 25px solid $jsYellow;
+    background-color: rgba(0,0,0,0.85);
+    a {
+      color: #fff;
+    }
+    h4 {
+        font-size: 2em;
+        margin-bottom: 1.35em
+    }
+}
+.sponsor {
+  display: inline-block;
+  width:25%;
+  margin: 15px;
+  img {
+    width: 100%;
+  }
+  box-sizing: border-box;
 }
 
-footer a,footer.layer a {
-    background-image: -webkit-linear-gradient(transparent 87%,#4c4c4c 87%,#4c4c4c 97%,transparent 97%);
-    background-image: linear-gradient(transparent 87%,#4c4c4c 87%,#4c4c4c 97%,transparent 97%);
-    color: #fff;
-    text-decoration: none
-}
-
-footer a:hover,footer.layer a:hover {
-    background-image: -webkit-linear-gradient(transparent 87%,#fff 87%,#fff 97%,transparent 97%);
-    background-image: linear-gradient(transparent 87%,#fff 87%,#fff 97%,transparent 97%);
-    color: #fff
-}
-
-footer a:active,footer.layer a:active {
-    background-image: -webkit-linear-gradient(transparent 87%,#7f7f7f 87%,#7f7f7f 97%,transparent 97%);
-    background-image: linear-gradient(transparent 87%,#7f7f7f 87%,#7f7f7f 97%,transparent 97%);
-    color: #fff
-}
-
-footer .section-wrap,footer.layer .section-wrap {
-    position: relative;
-    z-index: 2
-}
-
-footer h4,footer.layer h4 {
-    font-size: 2em;
-    margin-bottom: 1.35em
-}
-.footer-under-layer {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.85)
-}
 
 .footer-big-text {
     font-size: 2.4rem
 }
-
-.footer-thanks {
-    margin-bottom: 3rem
-}
-
-.footer-thanks .sponsor {
+.footer-links, .footer-thanks {
   display: inline-block;
-  min-width: 35%;
-  width:25%;
-  margin-left: 30px;
-  padding: 15px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.footer-thanks {
+    width: 55%;
+}
+.footer-links {
+  width: 44%;
+}
+.people {
+  a {
+    text-decoration: none;
+    background-image: none;
+  }
+  li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+  }
+  img {
+    border-radius: 100%;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  span {
+    display: inline-block;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-bottom: 20%;
+    padding: 10px;
+  }
 }

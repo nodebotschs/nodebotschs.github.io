@@ -14,31 +14,3 @@
   bottom: 3%;
   right: 3%;
 }
-
-
-.people img, .people span {
-  display: inline-block;
-}
-.people {
-  img {
-    display: inline-block;
-  }
-  span {
-    display: inline-block;
-    font-size: 1.5em;
-    vertical-align: middle;
-    margin-bottom: 20%;
-    padding: 10px;
-  }
-}
-.scrolling .hide-on-scroll {
-    display: none
-}
-
-.show-on-scroll {
-    display: none
-}
-
-.scrolling .show-on-scroll {
-    display: block
-}
