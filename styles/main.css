@@ -618,4 +618,7 @@ footer, footer.layer {
   width: 35%;
   position: absolute;
   bottom: 3%;
-  right: 3%; }
+  right: 3%;
+  transition: all 0.3s ease-in-out; }
+  .node-bot:hover {
+    bottom: -10%; }

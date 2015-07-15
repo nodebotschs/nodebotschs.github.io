@@ -13,4 +13,8 @@
   position: absolute;
   bottom: 3%;
   right: 3%;
+  transition: all .3s ease-in-out;
+  &:hover {
+    bottom: -10%;
+  }
 }
