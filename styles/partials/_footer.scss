@@ -53,6 +53,7 @@ footer,footer.layer {
   img {
     border-radius: 100%;
     display: inline-block;
+    max-width: 75px;                           
     transition: all .5s ease-in-out;
     &:hover {
       transform: scale(1.2);

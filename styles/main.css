@@ -153,7 +153,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.8rem;
-  margin: 0 0 0.3em; }
+  margin: 0 0 .3em; }
 
 h1 {
   font-size: 6.0rem; }
@@ -171,7 +171,7 @@ h5 {
   margin-bottom: 0; }
 
 p {
-  margin: 0 0 0.5em; }
+  margin: 0 0 .5em; }
 
 a {
   background-image: -webkit-linear-gradient(transparent 87%, #e5e5e5 87%, #e5e5e5 97%, transparent 97%);
@@ -204,11 +204,11 @@ a {
 
 ul {
   list-style: none;
-  margin: 0 0 0.5em;
+  margin: 0 0 .5em;
   padding: 0; }
 
 ul li {
-  margin: 0 0 0.75em;
+  margin: 0 0 .75em;
   padding: 0; }
 
 ::-moz-selection {
@@ -251,7 +251,7 @@ section, header, footer {
   background-image: linear-gradient(transparent 87%, transparent 87%, transparent 97%, transparent 97%);
   box-sizing: border-box;
   display: inline-block;
-  padding: 0.5em 0.75em 0.4em;
+  padding: .5em .75em .4em;
   text-decoration: none;
   background-color: #e6d356;
   border: 3px solid #000;
@@ -434,7 +434,8 @@ footer, footer.layer {
 .people img {
   border-radius: 100%;
   display: inline-block;
-  transition: all 0.5s ease-in-out; }
+  max-width: 75px;
+  transition: all .5s ease-in-out; }
   .people img:hover {
     transform: scale(1.2); }
 
@@ -619,6 +620,6 @@ footer, footer.layer {
   position: absolute;
   bottom: 3%;
   right: 3%;
-  transition: all 0.3s ease-in-out; }
+  transition: all .3s ease-in-out; }
   .node-bot:hover {
     bottom: -10%; }
