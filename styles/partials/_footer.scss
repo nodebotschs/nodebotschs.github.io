@@ -21,8 +21,12 @@ footer,footer.layer {
   margin: 15px;
   img {
     width: 100%;
+    display: block;
   }
   box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
 }
 
 
@@ -53,7 +57,7 @@ footer,footer.layer {
   img {
     border-radius: 100%;
     display: inline-block;
-    max-width: 75px;                           
+    max-width: 75px;
     transition: all .5s ease-in-out;
     &:hover {
       transform: scale(1.2);
